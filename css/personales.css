@@ -1,0 +1,170 @@
+.slider{
+
+	position: relative;
+    height: 73vh;
+    max-height: 73vh;
+    width: auto;
+    min-width: 73vw;
+    margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.titulo{
+	font-size: 6em;
+	font-family: 'Indie Flower', cursive;
+}
+
+.blanco{
+	color: white;
+    /* text-shadow: desplazamientoX desplazamientoY radio-de-desenfoque color; */
+    text-shadow: 3px 2px 1px #aaa;
+}
+
+.izquierda{
+    float: left;
+}
+
+.mt{
+    margin-top: 0.7em;
+}
+.centrar{
+margin: 0 auto;
+}
+
+.margen-arriba{
+	margin-top: -3%;
+	}
+
+.flex-control-nav {
+		width: 95% ;
+		position: absolute;
+		bottom: 5%;
+		text-align: right;
+	}
+
+/* estilos de botones */
+/*Estilos Generales*/
+.button {
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: -1px;
+    padding: 10px 0;
+    text-align: center;
+    width: 7em;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+  margin-bottom: 0;
+  font-weight: normal;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.button-info {
+
+	border: 3px solid white;
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    /* margin: 20px; */
+    padding: 10px 0;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+
+
+}
+
+/*Efectos, Hover*/
+.button:hover {
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.button-info:hover {
+    box-shadow:0px 0px 0px;
+    padding-top:7px;
+    text-decoration: none;
+    color: #000;
+    border: 3px solid #000;
+}
+
+.button span {
+	margin-right:10px;
+}
+
+/*Colores*/
+.button.black {
+    background:#000;
+    box-shadow:0px 3px 0px grey;
+}
+
+.button.blue {
+	background:#3498db;
+	box-shadow:0px 3px 0px #266792;
+}
+
+.button.yellow {
+	background:#e67e22;
+	box-shadow:0px 3px 0px #b55704;
+}
+
+
+/*Tamaños*/
+.button.medium {
+	width:350px;
+}
+
+
+.button.large {
+	width:450px;
+}
+
+
+.button.radius {
+	border-radius:50px;
+}
+
+
+.derecha{
+    float: right;
+}
+
+
+.flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(0, 0, 0, 0.9);
+    cursor: default;
+    color: transparent;
+}
+
+.flex-control-paging li a {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: transparent;
+}
